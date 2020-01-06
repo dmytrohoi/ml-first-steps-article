@@ -1,33 +1,32 @@
-Machine Learning - First steps (UA)
----
+# Machine Learning - First steps (UA)
 
-This repository containing files for article(like a course work) about Machine learning when writing for Kharkiv National University of Radioelectronics course. 
-In the work I use Dementions Tree for classificate standart "Iris Flower" (Fisher) task.
-All materials write on ukrainian language.
+## About repository
 
----
 
-В цьому репозиторії містяться файли до реферату (майже курсової роботи) про Машинне навчання який написаний для курсу в Харківському національному університеті радіоелектроніки.
+This repository containing files for an article (looks like a term paper) about machine learning. Files were written for the course "System Analysis" at the Kharkiv National University of Radio Electronics.
+In my work, I used the Dimension Tree to classify “Iris Flowers” (Fisher’s assignment).
 
-В роботі було використано Дерева рішень для стандартної задачі класифікації "Рисових квітів" (Фішер).
+**NOTE:** All materials are written in Ukrainian language.
+
+## Про репозиторій
+
+В цьому репозиторії містяться файли до реферату (майже курсової роботи) про Машинне навчання. Матеріал написаний для завдання по курсу навчання "Системний аналіз" в Харківському національному університеті радіоелектроніки.
+
+В роботі було використано "Дерева рішень" для стандартної задачі класифікації "Рисових квітів" (Фішер).
 
 Всі матеріали написані українською мовою.
 
----
-
 _В роботі використано багато Інтернет-джерел посилання на які наведено в "СПИСКУ ЛІТЕРАТУРИ"_
 
----
+## Залежності
 
-### Залежності
+В ході роботи використано:
+ - Python 3.6
+ - python libraries:
+   - pandas - для роботи з csv таблицями
+   - scipy - для побуводи та навчання моделі
 
-В ході роботи використано пакети:
- - pandas - для роботи з csv таблицями
- - scipy - створення моделі
+## Як подивитись результат?
 
-### Як подивитись результат?
-
-Перш за все пропоную звернути увагу на текстову роботу, представлену в файлі `ml.doc`.
- Для того, щоб оцінити виконану роботу з моделювання треба запустити файл `load_tree.py` який завантажує натреновану модель з файлу `iris.pkl` та перевіряє дані відповідно.
+Для того, щоб оцінити виконану роботу з моделювання треба запустити файл `load_tree.py` який завантажує натреновану модель з файлу `iris.pkl` та перевіряє дані відповідно.
 Модель дерева візуалізована на зображенні `iris.jpg` та записана в файл `iris.dot`.
-
